@@ -9,9 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "framer-motion": "^12.23.26",
     "next": "16.0.8",
+    "ogl": "^1.0.11",
     "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react-dom": "19.2.1",
+    "react-tsparticles": "^2.12.2",
+    "react-type-animation": "^3.2.0",
+    "tsparticles": "^3.9.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
