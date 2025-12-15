@@ -2,10 +2,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import Education from "../components/education";
 
 export default function Page() {
   return (
-    <div className=" bg-gradient-to-l from-sky-700 to-indigo-950 h-auto p-5 ">
+    <div className="  bg-gradient-to-r from-slate-900 to-slate-950 h-auto p-5 ">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -72,12 +73,15 @@ export default function Page() {
           >
             <img
               className="h-auto mt-10 rounded-3xl "
-              src="/aboutSection.png"
+              src="/userAbout.png"
               alt=""
             />
           </motion.div>
         </div>
       </motion.div>
+       <div className="m-40">
+          <Education/>
+        </div>
     </div>
   );
 }

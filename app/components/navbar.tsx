@@ -18,7 +18,7 @@ export default function Navbar() {
             </Link>
           </motion.li>
 
-          <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{duration:0.3}}>
             <Link href="/about" className="p-2">
               About Me
             </Link>
