@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <div className="  h-screen p-2 md:p-4">
+    <div className="  h-auto p-2 md:p-4">
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{amount:0.3}}
         transition={{ duration: 0.5 }}
         
-        className="bg-white/10 rounded-4xl h-auto mx-8 md:mx-40 p-6 md:p-10  flex flex-col  mt-8"
+        className="bg-white/6 rounded-4xl h-auto mx-8 md:mx-40 p-6 md:p-10  flex flex-col  mt-8"
       >
         <h1 className="text-3xl md:text-4xl text-yellow-500  md:m-6 font-bold">
           #Contact Us
@@ -22,12 +22,12 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4  ">
           <input
             type="text"
-            placeholder="Enter first name"
+            placeholder="    Enter first name"
             className="text-white col-span-1 row-span-1 py-1 border border-gray-500 rounded-lg  bg-white/10"
           />
           <input
             type="text"
-            placeholder="Enter last name"
+            placeholder="    Enter last name"
             className=" text-white col-span-1 row-span-1 py-1 border border-gray-500 rounded-lg  bg-white/10"
           />
         </div>
@@ -37,7 +37,7 @@ export default function Contact() {
         <div className="grid">
           <input
             type="text"
-            placeholder="Enter Your Email Address"
+            placeholder="   Enter Your Email Address"
             className=" text-white py-1 border border-gray-500 rounded-lg bg-white/10"
           />
         </div>

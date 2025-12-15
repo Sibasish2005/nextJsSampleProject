@@ -3,7 +3,7 @@ import StaggerChild from "./staggeredChild";
 
 export default function Education() {
   return (
-    <div className="bg-white/10 rounded-4xl p-4 md:p-10">
+    <div className="bg-white/6 rounded-4xl p-4 md:p-10">
       {/* EXPERIENCE */}
       <div className="mx-4 md:m-20 my-10">
         <StaggerChild>

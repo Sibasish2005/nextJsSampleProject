@@ -5,12 +5,12 @@ import React from "react";
 export default function Grid() {
   return (
     <div
-      className=" bg-white/10 rounded-4xl md:mx-30
+      className=" bg-white/6 rounded-4xl md:mx-30 pb-10
  "
     >
       <div className="grid">
         <div className="flex flex-col items-center pb-10 group">
-          <h1 className="text-yellow-600 text-4xl font-bold">My projects</h1>
+          <h1 className="text-yellow-600 text-4xl pt-10 font-bold">My projects</h1>
 
           <span
             className="
