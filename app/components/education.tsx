@@ -22,7 +22,7 @@ export default function Education() {
               <div className="flex flex-col">
                 <h2 className="text-white text-lg md:text-xl font-semibold">
                   Das Solutions{" "}
-                  <span className="text-slate-400 text-sm">(Pursuing)</span>
+                  <span className="text-slate-400 text-sm">(Working)</span>
                 </h2>
 
                 <span className="text-slate-400 text-sm mt-1">
