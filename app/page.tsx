@@ -6,6 +6,7 @@ import Grid from "./components/Grid";
 import Particles from "./components/particleBackround";
 import Education from "./components/education";
 import DarkVeil from "./components/darkveil";
+import { motion } from "framer-motion";
 
 
 export default function Page() {

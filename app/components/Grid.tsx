@@ -33,24 +33,19 @@ export default function Grid() {
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{amount:0.3}}
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
           transition={{ duration: 0.5 }}
           className="md:col-span-8 md:row-span-2 rounded-2xl m-3 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/CollegeManagement.png')" }}
-        > <div className="
-    absolute inset-0
-    bg-white/0
-    group-hover:bg-white/20
-    transition-all duration-300
-  " />
+          style={{ backgroundImage: "url('/nextjs.png')" }}
+        > 
         </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{amount:0.3}}
-          whileHover={{ scale: 1.03 }}
+          whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           transition={{ duration: 0.5 }}
           className="md:col-span-4 md:row-span-2 rounded-2xl m-3 bg-cover bg-center bg-no-repeat"
@@ -61,7 +56,7 @@ export default function Grid() {
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{amount:0.3}}
-          whileHover={{ scale: 1.03 }}
+          whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           transition={{ duration: 0.5 }}
           className="md:col-span-4 rounded-2xl m-3 bg-cover bg-center bg-no-repeat"
@@ -72,7 +67,7 @@ export default function Grid() {
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{amount:0.3}}
-          whileHover={{ scale: 1.03 }}
+          whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           transition={{ duration: 0.5 }}
           className="md:col-span-4 rounded-2xl m-3 bg-cover bg-center bg-no-repeat"
@@ -83,10 +78,10 @@ export default function Grid() {
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{amount:0.3}}
-          whileHover={{ scale: 1.03 }}
+          whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           className="md:col-span-4 rounded-2xl m-3 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/nextjs.png')" }}
+          style={{ backgroundImage: "url('/CollegeManagement.png')" }}
         ></motion.div>
       </div>
     </div>
