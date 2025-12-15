@@ -7,8 +7,10 @@ export default function Contact() {
     <div className="  h-screen p-2 md:p-4">
       <motion.div
         initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{amount:0.3}}
         transition={{ duration: 0.5 }}
+        
         className="bg-white/10 rounded-4xl h-auto mx-8 md:mx-40 p-6 md:p-10  flex flex-col  mt-8"
       >
         <h1 className="text-3xl md:text-4xl text-yellow-500  md:m-6 font-bold">

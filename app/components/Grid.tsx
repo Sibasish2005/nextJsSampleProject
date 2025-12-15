@@ -5,7 +5,7 @@ import React from "react";
 export default function Grid() {
   return (
     <div
-      className=" 
+      className=" bg-white/10 rounded-4xl md:mx-30
  "
     >
       <div className="grid">
