@@ -7,13 +7,14 @@ import DarkVeil from "./components/darkveil";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Profesional from "./components/profesional";
+import Footer from "./components/footer";
 
 export default function Page() {
   return (
-    <div className="relative min-h-screen overflow-hidden">
-      
+    <div className="relative min-h-screen bg-black">
+
       {/* Background */}
-      <div className="absolute inset-0 z-0">
+      <div className="fixed inset-0 z-0">
         <DarkVeil />
       </div>
 
@@ -22,30 +23,21 @@ export default function Page() {
         <Navbar />
       </div>
 
-      {/* Content */}
+      {/* Main content */}
       <main className="relative z-10 pt-24">
-
-        <section id="home">
-          <Hero />
-        </section>
-
-        <section id="about">
-          <About />
-        </section>
-
-        <section id="professional">
-          <Profesional />
-        </section>
-
-        <section id="projects">
-          <Grid />
-        </section>
-
-        <section id="contact">
-          <Contact />
-        </section>
-
+        <section id="home"><Hero /></section>
+        <section id="about"><About /></section>
+        <section id="professional"><Profesional /></section>
+        <section id="projects"><Grid /></section>
+        <section id="contact"><Contact /></section>
       </main>
+
+      <div className="relative z-10">
+         <Footer/>
+      </div>
+    
+      
+
     </div>
   );
 }

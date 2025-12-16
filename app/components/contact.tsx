@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative w-full py-24 flex justify-center items-center"
+      className="relative w-full  flex justify-center py-20"
     >
       <motion.div
         initial={{ opacity: 0, y: 30 }}
