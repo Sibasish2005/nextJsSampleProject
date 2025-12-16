@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import Education from "../components/education";
 
 export default function About() {
   return (
