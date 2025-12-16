@@ -3,46 +3,23 @@ import { motion } from "framer-motion";
 
 export default function Profesional() {
   return (
-    // ✅ OPTIMIZED: removed h-full / h-screen
-    // Section height is now content-driven (no overflow issues)
     <section className="p-4 md:p-10 md:mx-20">
-
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ amount: 0.3 }}
         transition={{ duration: 0.5 }}
-
-        // ✅ OPTIMIZED: removed h-full
-        // Grid grows naturally based on content height
         className="grid md:grid-cols-2 gap-10 rounded-2xl md:p-20 bg-white/3"
       >
-
-        {/* ==================== Education ==================== */}
-        <div
-          // ✅ OPTIMIZED:
-          // - removed h-full
-          // - single flex container instead of nested flex wrappers
-          className="flex flex-col bg-slate-900/40 rounded-3xl p-10"
-        >
-          <h1
-            // ✅ OPTIMIZED:
-            // Centering done directly, no wrapper div needed
-            className="text-center text-2xl md:text-4xl font-bold text-white/60 hover:text-white transition"
-          >
+        {/* Education */}
+        <div className="flex flex-col bg-slate-900/40 rounded-3xl p-10">
+          <h1 className="text-center text-2xl md:text-4xl font-bold text-white/60 hover:text-white transition">
             Education
           </h1>
 
-          {/* ✅ OPTIMIZED:
-              margin-top instead of extra wrapper divs */}
           <ul className="mt-8 space-y-4">
             <li>
-              <div
-                // ✅ OPTIMIZED:
-                // Single card container (removed multiple nested flex + h-full)
-                className="flex gap-4 sm:gap-6 p-4 md:p-6 rounded-2xl bg-slate-900/50 shadow-lg"
-              >
-                {/* Icon */}
+              <div className="flex gap-4 sm:gap-6 p-4 md:p-6 rounded-2xl bg-slate-900/50 shadow-lg">
                 <div className="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-full bg-indigo-600/20">
                   <img
                     src="/mortarboard.png"
@@ -51,17 +28,14 @@ export default function Profesional() {
                   />
                 </div>
 
-                {/* Text */}
                 <div>
                   <h2 className="text-white text-lg md:text-xl font-semibold">
                     NIELIT Agartala{" "}
                     <span className="text-slate-400 text-sm">(Pursuing)</span>
                   </h2>
-
                   <span className="block text-slate-400 text-sm">
                     2023 – 2026
                   </span>
-
                   <p className="text-slate-300 mt-2 text-sm md:text-base">
                     Bachelor of Computer Applications (BCA)
                   </p>
@@ -71,12 +45,8 @@ export default function Profesional() {
           </ul>
         </div>
 
-        {/* ==================== Experience ==================== */}
-        <div
-          // ✅ OPTIMIZED:
-          // Same structure as Education (consistent layout)
-          className="flex flex-col bg-slate-900/40 rounded-3xl p-10"
-        >
+        {/* Experience */}
+        <div className="flex flex-col bg-slate-900/40 rounded-3xl p-10">
           <h1 className="text-center text-2xl md:text-4xl font-bold text-white/60 hover:text-white transition">
             Experience
           </h1>
@@ -94,22 +64,19 @@ export default function Profesional() {
 
                 <div>
                   <h2 className="text-white text-lg md:text-xl font-semibold">
-                    NIELIT Agartala
+                   Das Solutions
                   </h2>
-
                   <span className="block text-slate-400 text-sm">
-                    2023 – 2026
+                   feb 2025 – Now
                   </span>
-
                   <p className="text-slate-300 mt-2 text-sm md:text-base">
-                    Internship / Experience details
+                    Web developer Intern
                   </p>
                 </div>
               </div>
             </li>
           </ul>
         </div>
-
       </motion.div>
     </section>
   );

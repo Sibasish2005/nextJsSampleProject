@@ -9,7 +9,8 @@ export default function About() {
     <div className="h-auto px-4 md:px-30 overflow-x-hidden">
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{amount:0.3}}
         transition={{ duration: 0.5 }}
         className="bg-white/4 h-auto rounded-3xl"
       >
@@ -70,7 +71,8 @@ export default function About() {
           {/* IMAGE SECTION */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{amount:0.3}}
             transition={{ duration: 0.4 }}
             className="col-span-1 flex justify-center items-center m-4 md:m-20"
           >
@@ -83,10 +85,7 @@ export default function About() {
         </div>
       </motion.div>
 
-      {/* EDUCATION */}
-      <div className="mx-4 md:mx-40 my-20">
-        <Education />
-      </div>
+      
     </div>
   );
 }
