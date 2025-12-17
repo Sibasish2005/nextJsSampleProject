@@ -7,7 +7,7 @@ export default function Grid() {
     <div className="bg-white/6 rounded-4xl md:mx-30 pb-10">
       {/* Title */}
       <div className="flex flex-col items-center pb-10 group">
-        <h1 className="text-yellow-600 text-4xl pt-10 font-bold">
+        <h1 className="text-yellow-600 text-3xl md:text-5xl pt-10 font-bold">
           My Projects
         </h1>
         <span className="mt-2 w-0 h-1 bg-amber-500 transition-all duration-300 group-hover:w-40" />
