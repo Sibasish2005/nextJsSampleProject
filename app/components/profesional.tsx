@@ -56,7 +56,7 @@ export default function Profesional() {
               <div className="flex gap-4 sm:gap-6 p-4 md:p-6 rounded-2xl bg-slate-900/50 shadow-lg">
                 <div className="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-full bg-indigo-600/20">
                   <img
-                    src="/mortarboard.png"
+                    src="/suitcase.png"
                     alt="experience"
                     className="w-6 h-6 md:w-7 md:h-7"
                   />
